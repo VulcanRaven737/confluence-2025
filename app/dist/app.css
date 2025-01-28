@@ -4836,7 +4836,7 @@
   height: calc(130% - 3rem);
 }
 .tf-about .content-about .social li:hover {
-  box-shadow: 0 0px 32px 0 rgba(34, 183, 143, 0.5);
+  box-shadow: 0 0px 32px 0 #b968f2;
 }
 .tf-about.style2 {
   padding: 90px 0 80px;

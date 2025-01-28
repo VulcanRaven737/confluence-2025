@@ -70,7 +70,7 @@
                             <a href="#sponsors">Sponsors</a>
                         </li> -->
                         <li class="menu-item">
-                            <a href="#tracks">Tracks</a>
+                            <a href="#tracks">Themes</a>
                         </li>
                         <li class="menu-item">
                             <a href="#roadmap">Roadmap</a>
@@ -80,7 +80,7 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="#register" class="tf-button btn-effect">   
+                <a href="https://forms.gle/2W6w2QcJny3TvRte7" class="tf-button btn-effect">   
                     <span class="boder-fade"></span>                                     
                     <span class="effect">Register Now</span>
                 </a>
@@ -105,8 +105,8 @@
                                         <div class="content-box">
                                             
                                             <h2 class="sub-title bold"> IEEE CS PESU presents,</h2>
-                                            <h1 style="font-size: 90px;" class="title">CONFLUENCE</h1>
-                                            <h2 class="sub-title bold">State Level Hackathon</h2>
+                                            <h1 style="font-size: 80px;" class="title">CONFLUENCE</h1>
+                                            <h2 class="sub-title bold">National Level Hackathon</h2>
                                             <p class="sub-title bold">February 14th-15th 2025</p>
                                                 <div class="comimg-soon">
                                                     <div class="row">
@@ -124,7 +124,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h2 class="sub-title bold"> The rush is back, Register now!!</h2>
+                                                <h2 class="sub-title bold">Register now!!</h2>
                                                 <!-- <div class="wrap-btn style2 style2-container">
                                                     <a href="https://ieeecspesu.tech" target='blank'
                                                     rel="noopener noreferrer" class="tf-button btn-effect">
@@ -154,7 +154,7 @@
                             <p class="h8 sub-title">About</p>
                             <h4 class="title">Confluence</h4>
                         </div>
-                        <p>Confluence is the IEEE Computer Society's upcoming 24Hrs hackathon this February. The hackathon is a chance for coders to unleash their creativity, innovate and test the limits of their skills and knowledge. If spending 24 hours coming up with ingenious ideas and create effective solutions for real-world problems sounds like the perfect way to spend your weekend, this is just the hackathon for you!
+                        <p>Confluence is the IEEE Computer Society's upcoming 24 hours hackathon this February. The hackathon is a chance for coders to unleash their creativity, innovate and test the limits of their skills and knowledge. If spending 24 hours coming up with ingenious ideas and create effective solutions for real-world problems sounds like the perfect way to spend your weekend, this is just the hackathon for you!
                             Teams will be selected based on their problem statements, so think outside the box and give us your best!
                             <br>
                             At the end of the 24-hour hackathon, teams will be <strong style="color: #ffffff;">deploying</strong> their app and presenting it to the judges.
@@ -169,17 +169,17 @@
                                 <ul>
                                     <li>Dates - 14th and 15th February 2025</li>
                                     <li>Venue - 13th Floor, BE Block, PES University RR Campus</li>
-                                    <li>Time - 9:00 AM - 9:00 AM (14th - 15th November)</li>
+                                    <li>Time - 04:00 PM - 04:00 PM (14th - 15th November)</li>
                                 </ul>
                             </p>
                         </div>
                         <div class="box-text corner-box active">
                             <div class="h7">Solve real-world problems</div>
-                            <p>The problem statements are well curated so as to solve a real world problem</p>
+                            <p>The themes are well curated so as to solve a real world problem</p>
                         </div>
                         <div class="box-text corner-box active">
                             <div class="h7">Prize Pool</div>
-                            <p>50,000 Rupees</p>
+                            <p>₹70,000</p>
                         </div>
                     </div>
                 </div>
@@ -210,230 +210,7 @@
             </div>
         </div>
     </section> -->
-
-    <!-- Adding the new Registration Form Section -->
-    <section id="register" class="tf-section tf-about pb-mobie">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="tf-title m-b60" data-aos="fade-up" data-aos-duration="800">
-                        <p class="h8 sub-title">Register</p>
-                        <h4 class="title">Team Registration</h4>
-                        <p class="text-white mb-4"><strong>Note: Only one member per team needs to fill this form.</strong></p>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <form id="registrationForm"  class="corner-box active registration-form" onsubmit="return handleSubmit(event)">
-                        <!-- Team Details -->
-                        <div class="form-group mb-4">
-                            <label for="teamName">Team Name</label>
-                            <input type="text" class="form-control" id="teamName" required>
-                        </div>
     
-                        <div class="form-group mb-4">
-                            <label for="teamSize">Team Size</label>
-                            <select class="form-control" id="teamSize" onchange="updateMemberForms()" required>
-                                <option value="">Select Team Size</option>
-                                <option value="2">2 Members</option>
-                                <option value="3">3 Members</option>
-                                <option value="4">4 Members</option>
-                            </select>
-                        </div>
-                        <div class="form-group mb-4">
-                            <label for="teamEmail">Team Email ID (for communication)</label>
-                            <input type="email" class="form-control" id="teamEmail" required>
-                            <small class="text-white">All further communication will be sent to this email address.</small>
-                        </div>
-    
-                        <div id="memberFormsContainer">
-                            <!-- Member forms will be dynamically added here -->
-                        </div>
-    
-                        <!-- Problem Statement dropdown for the team -->
-                        <div class="form-group mb-4">
-                            <label for="problemStatement">Problem Statement</label>
-                            <select class="form-control" id="problemStatement" required>
-                                <option value="">Select Problem Statement</option>
-                                <option value="Wellness Companion">Wellness Companion</option>
-                                <option value="AR Fitness Guide">AR Fitness Guide</option>
-                                <option value="Smart Traffic Management">Smart Traffic Management</option>
-                                <option value="The House Guard">The House Guard</option>
-                                <option value="UAV Disaster Recovery">UAV Disaster Recovery</option>
-                                <option value="Secure Threat Log">Secure Threat Log</option>
-                                <option value="Secure Threat Log">The Big Bull</option>
-                                <option value="The Intelligent Copilot">The Intelligent Copilot</option>
-                                <option value="Wildlife Guardian">Wildlife Guardian</option>
-                                <option value="Web Defense Plan">Web Defense Plan</option>
-                                <option value="Student Innovation">Student Innovation</option>
-                            </select>
-                        </div>
-                        <div class="form-group mb-4">
-                            <label for="pptLink">Presentation Link (Google Slides/Drive Link)</label>
-                            <input type="url" class="form-control" id="pptLink" required>
-                            <small class="text-white"><strong>Note: Please ensure the presentation is shared with view access to ieee.cs.rr@pes.edu</strong></small>
-                        </div>
-                        <button type="submit" class="tf-button btn-effect rounded">
-                            <span class="boder-fade"></span>                                     
-                            <span class="effect">Submit Registration</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <script>
-        function getMemberForm(index) {
-            return `
-                <div class="member-block mb-5">
-                    <h5 class="mb-4">Team Member ${index}</h5>
-                    <div class="form-group mb-4">
-                        <label for="name${index}">Full Name</label>
-                        <input type="text" class="form-control" id="name${index}" required>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="gender${index}">Gender</label>
-                        <select class="form-control" id="gender${index}" required>
-                            <option value="">Select Gender</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="university${index}">University</label>
-                        <input type="text" class="form-control" id="university${index}" required>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="year${index}">Year of Study</label>
-                        <select class="form-control" id="year${index}" required>
-                            <option value="">Select Year</option>
-                            <option value="first">First</option>
-                            <option value="second">Second</option>
-                            <option value="third">Third</option>
-                            <option value="fourth">Fourth</option>
-                        </select>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="hostelite${index}">Hostelite</label>
-                        <select class="form-control" id="hostelite${index}" onchange="toggleRoomNumber(${index})" required>
-                            <option value="">Select Option</option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                            <option value="not_pes">Not from PES University</option>
-                        </select>
-                    </div>
-                    <div class="form-group mb-4" id="roomNumberDiv${index}" style="display: none;">
-                        <label for="roomNumber${index}">Room Number</label>
-                        <input type="text" class="form-control" id="roomNumber${index}">
-                    </div>
-                </div>
-            `;
-        }
-    
-        function updateMemberForms() {
-            const container = document.getElementById('memberFormsContainer');
-            const teamSize = parseInt(document.getElementById('teamSize').value);
-            
-            container.innerHTML = ''; // Clear existing forms
-            
-            // Add forms for selected number of members
-            for(let i = 1; i <= teamSize; i++) {
-                container.innerHTML += getMemberForm(i);
-            }
-        }
-    
-        function toggleRoomNumber(memberNum) {
-            const hosteliteSelect = document.getElementById(`hostelite${memberNum}`);
-            const roomNumberDiv = document.getElementById(`roomNumberDiv${memberNum}`);
-            
-            if (hosteliteSelect.value === 'yes') {
-                roomNumberDiv.style.display = 'block';
-                document.getElementById(`roomNumber${memberNum}`).required = true;
-            } else {
-                roomNumberDiv.style.display = 'none';
-                document.getElementById(`roomNumber${memberNum}`).required = false;
-            }
-        }
-    
-        async function handleSubmit(event) {
-            event.preventDefault();
-
-            // Show loading overlay
-            const overlay = document.querySelector('.loading-overlay');
-            const loader = document.querySelector('.loader');
-            const successMessage = document.querySelector('.success-message');
-            overlay.style.display = 'flex';
-            loader.style.display = 'block';
-            successMessage.style.display = 'none';
-
-            const teamSize = parseInt(document.getElementById('teamSize').value);
-            const formData = {
-                teamName: document.getElementById('teamName').value,
-                teamEmail: document.getElementById('teamEmail').value,
-                teamSize: parseInt(document.getElementById('teamSize').value),
-                problemStatement: document.getElementById('problemStatement').value,
-                pptLink: document.getElementById('pptLink').value
-            };
-
-            // Collect data for all members
-            for(let i = 1; i <= teamSize; i++) {
-                formData[`name${i}`] = document.getElementById(`name${i}`).value;
-                formData[`gender${i}`] = document.getElementById(`gender${i}`).value;
-                formData[`university${i}`] = document.getElementById(`university${i}`).value;
-                formData[`year${i}`] = document.getElementById(`year${i}`).value;
-                formData[`hostelite${i}`] = document.getElementById(`hostelite${i}`).value;
-                formData[`roomNumber${i}`] = document.getElementById(`hostelite${i}`).value === 'yes' ? 
-                    document.getElementById(`roomNumber${i}`).value : '';
-            }
-
-            try {
-                const response = await fetch('/api/submit', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(formData)
-                });
-
-                if (response.ok) {
-                    // Fade out loader
-                    loader.style.opacity = '0';
-                    
-                    // Wait for loader fade out, then switch to success message
-                    setTimeout(() => {
-                        loader.style.display = 'none';
-                        successMessage.style.display = 'block';
-                        
-                        // Trigger reflow to ensure transition works
-                        successMessage.offsetHeight;
-                        
-                        // Add show class for transition
-                        successMessage.classList.add('show');
-                    }, 300);
-                    
-                    // Reset form
-                    document.getElementById('registrationForm').reset();
-                    document.getElementById('memberFormsContainer').innerHTML = '';
-                    
-                    // Hide overlay after 4 seconds (increased to account for animation)
-                    setTimeout(() => {
-                        successMessage.classList.remove('show');
-                        setTimeout(() => {
-                            overlay.style.display = 'none';
-                        }, 300);
-                    }, 4000);
-                } else {
-                    throw new Error('Submission failed');
-                }
-            } catch (error) {
-                console.error('Error:', error);
-                overlay.style.display = 'none';
-                alert('Error submitting form. Please try again.');
-            }
-
-            return false;
-        }
-    </script>
 
     <section class="tf-section tf-project pb-mobie">
         <div class="container-fluid">
@@ -446,7 +223,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/Cloud.png" alt="">
                                         <div class="content">
-                                            <a >Cloud Computing</a>
+                                            <a >AI for a Smarter, Greener Planet</a>
                                         </div>
                                     </div>
                                 </div>
@@ -454,7 +231,8 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ai.png" alt="">
                                         <div class="content">
-                                         <a >Artificial Intelligence</a>
+                                         <a >The Future of Mobility: AI in Transportation
+                                        </a>
                                         </div>
                                     </div>
                                 </div>
@@ -462,7 +240,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sc.png" alt="">
                                         <div class="content">
-                                         <a >System Core</a>
+                                         <a >AI for Human Well-Being</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +248,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/bc.png" alt="">
                                         <div class="content">
-                                         <a >Blockchain</a>
+                                         <a >AI-Powered Future Cities</a>
                                         </div>
                                     </div>
                                 </div>
@@ -478,7 +256,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ml.png" alt="">
                                         <div class="content">
-                                         <a >Machine Learning</a>
+                                         <a >Revolutionizing Education with AI</a>
                                         </div>
                                     </div>
                                 </div>
@@ -486,7 +264,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ds.png" alt="">
                                         <div class="content">
-                                         <a >Data Science</a>
+                                         <a >AI for Entertainment, Media, and Gaming</a>
                                         </div>
                                     </div>
                                 </div>
@@ -494,7 +272,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/iot.png" alt="">
                                         <div class="content">
-                                           <a >IOT</a>
+                                           <a >AI in Crisis Management and Disaster Relief</a>
                                         </div>
                                     </div>
                                 </div>
@@ -502,7 +280,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sd.png" alt="">
                                         <div class="content">
-                                         <a >Software Dev</a>
+                                         <a >The Boundless Potential of Generative AI</a>
                                         </div>
                                     </div>
                                 </div>
@@ -520,7 +298,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sd.png" alt="">
                                         <div class="content">
-                                         <a >Software Dev</a>
+                                         <a >AI for a Smarter, Greener Planet</a>
                                         </div>
                                     </div>
                                 </div>
@@ -528,7 +306,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/iot.png" alt="">
                                         <div class="content">
-                                         <a >IOT</a>
+                                         <a >The Future of Mobility: AI in Transportation</a>
                                         </div>
                                     </div>
                                 </div>
@@ -536,7 +314,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ds.png" alt="">
                                         <div class="content">
-                                         <a >Data Science</a>
+                                         <a >AI for Human Well-Being</a>
                                         </div>
                                     </div>
                                 </div>
@@ -544,7 +322,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/bc.png" alt="">
                                         <div class="content">
-                                         <a >Blockchain</a>
+                                         <a >AI-Powered Future Cities</a>
                                         </div>
                                     </div>
                                 </div>
@@ -552,7 +330,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ml.png" alt="">
                                         <div class="content">
-                                         <a >Machine Learning</a>
+                                         <a >Revolutionizing Education with AI</a>
                                         </div>
                                     </div>
                                 </div>
@@ -560,7 +338,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sc.png" alt="">
                                         <div class="content">
-                                         <a >System Core</a>
+                                         <a >AI for Entertainment, Media, and Gaming</a>
                                         </div>
                                     </div>
                                 </div>
@@ -568,7 +346,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ai.png" alt="">
                                         <div class="content">
-                                           <a >Artificial Intelligence</a>
+                                           <a >AI in Crisis Management and Disaster Relief</a>
                                         </div>
                                     </div>
                                 </div>
@@ -576,7 +354,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/Cloud.png" alt="">
                                         <div class="content">
-                                         <a >Cloud Computing</a>
+                                         <a >The Boundless Potential of Generative AI</a>
                                         </div>
                                     </div>
                                 </div>
@@ -595,102 +373,106 @@
                 <div class="col-md-12">
                     <div class="tf-title m-b60" data-aos="fade-up" data-aos-duration="800">
                         <p class="h8 sub-title">Solve Real-World Problems</p>
-                        <h4 class="title">Problem Statements</h4>
-                        <a href="https://docs.google.com/presentation/d/1apCu8bRJIieqcIRwLrp85AYLQYKC4L9xkqBLurimX9g/edit#slide=id.g9a0f900027_1_812" target='blank'
+                        <h4 class="title">Themes</h4>
+                        <a href="https://drive.google.com/file/d/1xJn-UqYwAgJgUprtTOwSYN6elr4vXEBx/view" target='blank'
                         rel="noopener noreferrer" class="tf-button btn-effect">
                             <span class="boder-fade"></span>                                    
-                            <span class="effect">PPT Template</span>
+                            <span class="effect">Presentation Template</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp; 1. &nbsp; Wellness Companion</div>
-                            <p class="toggle-content"> Design an integrated wellness platform that leverages AI and machine learning to provide personalized health interventions across mental health, fitness, and nutrition. The system should incorporate sentiment analysis for mood tracking, computer vision for workout form correction, and recommendation engines for meal planning. Key features should include real-time mood analysis through text/voice inputs, ML-powered workout partner matching based on behavioral patterns and fitness metrics, and a smart dietary assistant that uses computer vision to analyze food portions and generates personalized meal plans using nutritional algorithms.
+                            <div class="h7 toggle-title">&nbsp;1. &nbsp; AI for a Smarter, Greener Planet</div>
+                            <p class="toggle-content">
+                                Imagine a world where technology works hand in hand with nature to create a sustainable future. This theme focuses on using AI to tackle climate change, protect forests, and optimize renewable energy systems for cleaner living. It’s about rethinking waste through smarter management, embracing circular economies, and empowering farmers with AI-driven tools for sustainable agriculture and water conservation. Together, we can build a greener, more harmonious planet for generations to come.<br/><br/>
+                                Example tracks:<br/>
+                                    • AI for climate change mitigation (e.g., carbon tracking, forest monitoring)<br/>
+                                    • Smart grids and renewable energy optimization<br/>
+                                    • AI for waste management and circular economies<br/>
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp;2. &nbsp; AR Fitness Guide</div>
-                            <p class="toggle-content">Create an immersive augmented reality fitness platform that transforms traditional workout experiences through real-time pose estimation and motion tracking. The system should utilize computer vision to analyze user movements, providing instant feedback on form correction while overlaying 3D anatomical visualizations to demonstrate proper technique. Implement machine learning models to adapt difficulty levels and create personalized workout progressions based on user performance data.
-                                <br>
-                                <br>
-                                Reference link: <a target='blank'
-                                rel="noopener noreferrer" href="https://www.meta.com/experiences/yoga/5979055785535814/">Yoga on Meta Quest</a>
-                                <br>
-                                Reference link: <a target='blank'
-                                rel="noopener noreferrer" href="https://techcrunch.com/sponsor/photonlens/how-augmented-reality-will-transform-the-fitness-industry/">How AR will transform the Fitness Industry</a>
+                            <div class="h7 toggle-title">&nbsp;2. &nbsp; The Future of Mobility: AI in Transportation</div>
+                            <p class="toggle-content">
+                                Reimagine how we move, connect, and explore. This theme envisions a world where AI makes transportation safer, faster, and more sustainable. From autonomous vehicles and AI-powered navigation to reducing traffic and preventing accidents, technology transforms the way we travel. It also inspires smarter logistics, seamless deliveries, and greener solutions like electric and hydrogen-powered vehicles—all designed to create a more human-centered and connected future.<br/><br/>
+                                Example tracks:<br/>
+                                    • Autonomous driving and AI-powered navigation systems<br/>
+                                    • AI for urban traffic optimization and accident prevention<br/>
+                                    • Intelligent logistics and supply chain optimization<br/>
+                                    • AI in electric and hydrogen-powered vehicles<br/>
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp;3. &nbsp; Smart Traffic Management</div>
-                            <p class="toggle-content">Don't we all detest the congested streets in some parts of Bangalore? Our patience is put to the test, and it also makes us late for work. In addition to this, traffic also slightly raises fuel consumption, which directly affects vehicle emission rates and raises pollution levels. The best time to respond to and resolve this issue is now.
-                                <br>
-                                <br>
-                                Create an intelligent driving assistance system that combines IoT sensors, computer vision, and natural language processing to provide real-time driving behavior analysis. The platform should utilize accelerometer data, GPS tracking, and video analysis to detect driving patterns, with machine learning models assessing risk levels and generating personalized improvement strategies.
-                                <br>
-                                <br>
-                                <strong style="color: #ffffff;">Note: </strong>A solution that involves the usage of synthetic (generated) sensor data or from sensor datasets are encouraged.
+                            <div class="h7 toggle-title">&nbsp;3. &nbsp; AI for Human Well-Being</div>
+                            <p class="toggle-content">
+                                At its heart, this theme is about using AI to care for people and improve their lives. Imagine AI-powered healthcare tools that save lives with early diagnoses, or mental health solutions that provide timely support to those in need. Picture technologies that make the world more accessible for people with disabilities and tools that ensure safer, healthier workplaces. This theme is a call to create solutions that uplift humanity and prioritize well-being for all.<br/><br/>
+                                Example tracks:<br/>
+                                    • AI-powered healthcare diagnostics and wearable devices<br/>
+                                    • Mental health solutions using AI for early detection and support<br/>
+                                    • AI for accessible technologies (e.g., tools for people with disabilities)<br/>
+                                    • Enhancing workplace safety using AI-driven monitoring<br/>
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp; 4. &nbsp;The House Guard</div>
-                            <p class="toggle-content"> Design a comprehensive smart security ecosystem that integrates edge computing with IoT sensors for real-time threat detection. The system should employ computer vision for person identification, anomaly detection algorithms for unusual activity recognition, and predictive maintenance for device health monitoring. Include federated learning capabilities for privacy-preserved security pattern recognition across multiple households.
+                            <div class="h7 toggle-title">&nbsp;4. &nbsp; AI-Powered Future Cities</div>
+                            <p class="toggle-content"> 
+                                Imagine living in cities that truly understand and adapt to our needs. AI-powered future cities bring smarter urban planning, traffic systems that ease our daily commutes, and energy-efficient buildings that reduce our carbon footprint. From predicting natural disasters to enabling faster emergency responses, AI ensures our cities are not just smart but safe. By blending technology with community care, these cities promise a sustainable, inclusive, and vibrant future for everyone.<br/><br/>
+                                Example tracks:<br/>
+                                    • AI in urban planning and traffic systems<br/>
+                                    • Smart building technologies with energy-efficient designs<br/>
+                                    • AI for disaster prediction and emergency response<br/>
+                                    • Urban safety: AI-driven surveillance and crime prediction systems<br/>
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp; 5. &nbsp; UAV Disaster Recovery</div>
-                            <p class="toggle-content"> Design a UAV-based disaster response system using ROS and Gazebo for simulation and testing. The system should implement autonomous navigation, with the drone capable of capturing and processing aerial imagery to identify affected zones. Teams should develop a ground control interface that processeses image feeds using OpenCV for basic damage assessment, and generates area coverage maps. The system should include waypoint navigation and emergency return-to-home or safe food airdrop spot detection capabilities.
+                            <div class="h7 toggle-title">&nbsp;5. &nbsp; Revolutionizing Education with AI</div>
+                            <p class="toggle-content"> 
+                                Education shapes lives, and with AI, it can become more inclusive, engaging, and impactful. Picture personalized learning platforms that adapt to each student's pace and style, or immersive virtual reality classrooms that bring lessons to life. AI tutors can help bridge educational gaps in underserved communities, while intelligent tools automate assessments, freeing up teachers to focus on what matters most—nurturing young minds. This theme inspires innovations that make education accessible and empowering for all.<br/><br/>
+                                Example tracks:<br/>
+                                    • AI for personalized and adaptive learning platforms<br/>
+                                    • Virtual reality and gamification for immersive education experiences<br/>
+                                    • AI tutors for skill development in underserved communities<br/>
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title">&nbsp; 6. &nbsp; Secure Threat Log</div>
-                            <p class="toggle-content">Develop a blockchain-based malware incident reporting system using Ethereum smart contracts for immutable record-keeping. The system should implement a decentralized architecture where organizations can securely log incident details including malware signatures, attack vectors, and impact assessments. Key requirements include implementing role-based access control, cryptographic verification of submitted reports, and a consensus mechanism for validating incidents. Teams should create an interface for incident submission and querying, with features for tracking incident status and generating threat intelligence reports. The solution should demonstrate proper implementation of blockchain fundamentals including transaction validation and smart contract security.
+                            <div class="h7 toggle-title">&nbsp;6. &nbsp; AI for Entertainment, Media, and Gaming</div>
+                            <p class="toggle-content">
+                                Imagine stories that evolve as you play or music composed just for you. This theme dives into the exciting world of creativity fueled by AI—where generative tools craft stunning art, dynamic games, and immersive experiences in virtual reality. From enhancing how we stream and interact with media to creating personalized entertainment, AI unlocks endless possibilities for storytelling, creativity, and fun. It’s where innovation meets imagination to captivate and inspire.<br/><br/>
+                                Example tracks:<br/>
+                                    • AI for generative art, music, and storytelling<br/>
+                                    • AI in game development (e.g., NPC behavior, dynamic storytelling)<br/>
+                                    • Enhancing user experience in streaming and media platforms with AI<br/>
+                                    • AI for immersive experiences in AR/VR<br/>
                             </p>
                         </div>
                         
                     <div class="flat-toggle box-text corner-box active">
-                        <div class="h7 toggle-title">&nbsp; 7. &nbsp; The Big Bull</div>
-                        <p class="toggle-content">Blockchain is one of the growing technologies used for financial management systems. Financial data must be kept secure otherwise it can create a huge loss. So, whenever security features or technologies are developed, we must keep financial security as a priority. Stock market management is another area of the finance sector that works on two concepts, that is, minimize the risk and maximize the profit.
-                            <br>
-                            <br>
-                        Imagine companies can register, issue and trade shares on a blockchain-based platform. What does it mean to you? In brief, you can buy company shares using digital currency. 
-                        <br>
-                        <br>
-                        <strong style="color: #ffffff;">Note: </strong> Build an application  with blockchain technology that can be used to buy and sell stocks. Real world stocks can be tokenized into digital stocks which can be easily transferred using peer-to-peer. These digital stocks act similar to digital currency whose price is real time and fluctuates. Stocks exchanged completely peer-to-peer could resolve many of the issues facing the stock market today, including high frequency trading and short sales.
+                        <div class="h7 toggle-title">&nbsp;7. &nbsp; AI in Crisis Management and Disaster Relief</div>
+                        <p class="toggle-content">
+                            In moments of crisis, every second counts. AI has the power to save lives by predicting disasters in real time, guiding search-and-rescue teams, and ensuring humanitarian aid reaches those who need it most. It can revolutionize pandemic prevention, optimize resource allocation, and provide tools for communities to rebuild stronger. This theme is about using technology to bring hope, compassion, and life-saving solutions when humanity needs them most.<br/><br/>
+                            Example tracks:<br/>
+                                    • AI for real-time disaster prediction and resource allocation<br/>
+                                    • Search-and-rescue robots powered by AI<br/>
+                                    • AI for monitoring and managing humanitarian logistics<br/>
+                                    • Predictive analytics for pandemic prevention and control<br/>
                         </p>
                     </div>
                     <div class="flat-toggle box-text corner-box active">
-                        <div class="h7 toggle-title">&nbsp; 8. &nbsp; The Intelligent Copilot</div>
-                        <p class="toggle-content">Design an adaptive learning platform that leverages LLMs for personalized education. The system should analyze student responses to dynamically adjust content difficulty, generate practice questions, and provide detailed explanations. Implement spaced repetition algorithms for optimized learning schedules and include features for progress tracking and performance analytics. Teams should focus on prompt engineering for educational content generation, implementing a feedback loop for learning optimization, and creating an engaging user interface. The platform should support multiple subject areas and learning styles while maintaining conversation context for meaningful interactions.
-                            <br>
-                            <br>
-                            <strong style="color: #ffffff;">Note: </strong> Feel free to use open-source LLMs and foundation models with any modifications to your pipeline, including fine-tuning , Retrieval Augmented Generation (RAG) techniques etc.
+                        <div class="h7 toggle-title">&nbsp;8. &nbsp; The Boundless Potential of Generative AI</div>
+                        <p class="toggle-content">
+                            Generative AI is unlocking new realms of creativity and innovation. From designing virtual assistants that simplify our lives to creating breathtaking art, videos, and music, this technology is reshaping how we work and imagine. It’s revolutionizing industries like design, manufacturing, and science, solving complex problems like protein folding and accelerating breakthroughs. This theme is an invitation to explore how AI can unleash human potential and reimagine what is possible.<br/><br/>
+                            Example tracks:<br/>
+                                    • AI for creating virtual assistants and customer service bots<br/>
+                                    • Generative AI for design, architecture, and manufacturing<br/>
+                                    • AI in content creation: Text, images, and video generation<br/>
+                                    • Generative AI for solving complex scientific problems (e.g., protein folding)<br/>
                         </p>
-
-                    </div>
-                    <div class="flat-toggle box-text corner-box active">
-                        <div class="h7 toggle-title">&nbsp; 9. &nbsp; Wildlife Guardian</div>
-                        <p class="toggle-content"> Design a comprehensive wildlife monitoring system that combines computer vision and geospatial analytics to protect both endangered species and human settlements. The solution should implement a multi-modal pipeline that processes inputs from camera traps, satellite imagery, and ground sensors to detect and track animal movements. Using pre-trained deep learning models for animal detection and classification, the system should maintain a real-time heatmap of animal activities on an integrated map interface. The platform should enable wildlife experts to analyze behavioral patterns through historical movement data, habitat utilization, and potential conflict zones, while implementing an early warning system for nearby settlements when animals are detected moving towards inhabited areas. Teams should focus on creating an end-to-end solution with both real-time monitoring capabilities and a web dashboard for long-term analytical insights, designed to handle multiple species tracking while maintaining low latency for critical alerts. The solution should demonstrate effective use of computer vision pipelines and geospatial data .
-                            <br>
-                            <br>
-                            <strong style="color: #ffffff;">Note: </strong> A simple proof of concept (POC) will be considered since the problem statement is vast and requires a lot of data. Effectively demonstrating the working components of the system will be considered.
-                        </p>
-
-                    </div>
-                    <div class="flat-toggle box-text corner-box active">
-                        <div class="h7 toggle-title">&nbsp; 10. &nbsp; Web Defense Plan</div>
-                        <p class="toggle-content"> Create a security incident response management system focusing on web application threats. The platform should include modules for incident detection using log analysis, automated alert generation, and structured response workflows. Teams should implement features for incident categorization (XSS, SQL injection, DDoS), severity assessment, and response tracking. Include capabilities for generating incident reports, managing response team assignments, and maintaining an audit trail of actions taken. The system should integrate with common security tools and provide API endpoints for external integrations.
-                        </p>
-                    </div>
-                    <div class="flat-toggle box-text corner-box active">
-                        <div class="h7 toggle-title">&nbsp; 11. &nbsp; Student Innovation</div>
-                        <p class="toggle-content"> Think you have a brilliant idea that does not fit into any of the above categories? This is a category for you where you can impress us with your own innovative ideas. Be sure to include as much relevant information as possible!
-                        </p>
-                    </div>
-
-                    
-                </div>
+                    </div>    
+                    <br/>
+                    <p class="h7 sub-title">Do note, the example tracks given per theme are not strictly to be followed; you are welcome to explore and choose any topic or track that resonates with you! </p>                                  
+                </div>                  
             </div>
         </div>
     </section>
@@ -717,10 +499,10 @@
                                             <div class="corner-box active">
                                                 <h5>Team Entry</h5>
                                                 <ul>
-                                                    <p class="bold">16th November 2024
+                                                    <p class="bold">14th February 2025
                                                         <br/>
-                                                        9:00 am</p>
-                                                    <li>The Hackathon begins at 10:00 am!</li>
+                                                        04:00 pm</p>
+                                                    <li>The Hackathon begins at 04:00 pm!</li>
                                                     <!-- <li>Malesuada felis sem elementum</li>
                                                     <li>Risus eu metus</li> -->
                                                 </ul>
@@ -922,25 +704,25 @@
                 <div class="col-md-12">
                     <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
                         <div class="flat-toggle box-text corner-box active">
-                            <div class="h7 toggle-title active">When and where is the Hackathon going to be held?</div>
-                            <p class="toggle-content">November 16th and 17th 2024, 13th Floor Be Block, PES University RR Campus</p>
+                            <div class="h7 toggle-title">When and where is the Hackathon going to be held?</div>
+                            <p class="toggle-content">February 14th and 15th 2025, 13th Floor BE Block, PES University RR Campus</p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Is there a registration fee for the Hackathon?
                             </div>
-                            <p class="toggle-content">Selected Teams will have to pay a registration fee of 200 rupees per member.</p>
+                            <p class="toggle-content">Selected Teams will have to pay a registration fee of ₹175 per member.</p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">What should I bring?</div>
                             <p class="toggle-content">
-                                You'll need to bring your own laptop, chargers, any external hard drives or hardware you plan to use, and most importantly - your enthusiasm and creative spirit! 🚀 No hardware will be provided from IEEE CS PESU's side.
+                                You'll need to bring your own laptop, chargers, any external hard drives or hardware you plan to use, and most importantly - your enthusiasm and creative spirit! No hardware will be provided from IEEE CS PESU's side.
                                 While we encourage you to bring snacks and beverages to keep your energy up, please note that our venue has a strict no-tolerance policy for drugs, alcohol, cigarettes (including e-cigarettes), lighters, or any harmful substances. Anyone found in possession of these items will face immediate disciplinary action.
                                 Consider bringing a small cushion or sweater to stay comfortable.
                             </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Do I need a team? What is the team size for the hackathon?</div>
-                            <p class="toggle-content">Yes, this is a team event. A team may consist of 2-4 members.</p>
+                            <p class="toggle-content">Yes, this is a team event. A team may consist of 3-4 members.</p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Do I need to have any prerequisites? Do I require any skills?</div>
@@ -952,7 +734,7 @@
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Is the event open to everyone?</div>
-                            <p class="toggle-content">Absolutely! Students of all branches (BTech Engineering) and years are welcome to participate. </p>
+                            <p class="toggle-content">Absolutely! Students of all branches and years are welcome to participate. </p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">How many rounds do I have to go through?</div>
@@ -960,7 +742,7 @@
                     </div>
                     <div class="flat-toggle box-text corner-box active">
                         <div class="h7 toggle-title">Have any questions? </div>
-                        <p class="toggle-content">Don’t hesitate  to email us at ieee.cs.rr@pes.edu. Do DM us on instagram @ieee.cs.pesu and we will try to reply to your questions as soon as possible!  </p>
+                        <p class="toggle-content">Don’t hesitate to contact us. Do DM us on +91 7349089681 (Tejas Kumar), +91 9880478855 (Abhay Rao) or on instagram @ieee.cs.pesu and we will try to reply to your questions as soon as possible!  </p>
                 </div>
                     
                 </div>
@@ -1009,11 +791,12 @@
                         </a>
                     </li>
                 </ul>
-                <h5 class="heading">Don’t miss out, Join the Rush</h5>
+                <br/>
+                <h5 class="heading">Don’t miss out</h5>
                 <!-- <p>Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut </p> -->
 
                 <div class="wrap-btn style2 style2-container">
-                    <a href="#register" class="tf-button btn-effect"><span class="effect">Register</span></a>
+                    <a href="https://forms.gle/2W6w2QcJny3TvRte7" class="tf-button btn-effect"><span class="effect">Register Now</span></a>
                     <a href="https://ieeecspesu.tech" target='blank'
                     rel="noopener noreferrer" class="tf-button btn-effect">
                         <span class="boder-fade"></span>                                     
