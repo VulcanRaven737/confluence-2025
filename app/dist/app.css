@@ -7188,4 +7188,13 @@ input[type=color]::placeholder {
   margin-bottom: 0 !important;
 }
 
+.sponsor-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Adds space between the items */
+}
+
+.sponsor-item {
+  text-align: center;
+}
 /*# sourceMappingURL=app.css.map */
